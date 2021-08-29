@@ -8,7 +8,7 @@ plt.rcParams["figure.figsize"] = [10, 6]
 plt.xlabel("Confidence(%)")
 plt.ylabel("Rule count")
 plt.title("Support level of 9%")
-data = pd.read_csv("D:/BreadBasket_DMS.csv")
+data = pd.read_csv(r"BreadBasket_DMS.csv")
 
 data= data.set_index(['Item'])
 filtered= data.drop(['NONE'])
